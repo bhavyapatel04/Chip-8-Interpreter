@@ -1,4 +1,6 @@
 #include "chip8_def.h"
+#include <stdio.h>
+#include <stdlib.h>
 /*
 First Opcode: 00E0
 CLS: Clear the display, set all pixels to 0

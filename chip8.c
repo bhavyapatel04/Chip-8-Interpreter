@@ -5,8 +5,10 @@
 #include <stdint.h>
 #include <string.h>
 #include "chip8_def.h"
+#include "instructions.h"
+#include "chip8_def.h"
 
-int main() {
+int main(int argc, char* argv[]) {
     
 }
 
