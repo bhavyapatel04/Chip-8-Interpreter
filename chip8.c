@@ -8,6 +8,8 @@
 #include "instructions.h"
 #include "chip8_def.h"
 
+#define CPU_CLOCK_DELAY 1000 //1ms delay between each cycle
+
 int main(int argc, char* argv[]) {
     //seed the random number generator
     srand(time(NULL));
